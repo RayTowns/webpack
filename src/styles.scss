@@ -1,0 +1,20 @@
+$title-color: #E1F90C;
+$background-color: #0C0D01;
+$fontDefault: helvetica, arial, sans-serif; 
+
+.title {
+    color: $title-color;
+    background-color: $background-color;
+    font-family: $fontDefault;
+    max-width: 500px;
+}
+
+.container {
+    max-width: 1200px;
+    border: 2px solid #eaff03;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
